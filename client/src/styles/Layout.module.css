@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #e2ad0e;
+  /* --primary-color: #FFBE00; */
+}
+
+.wrapper::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+}
+.wrapper::-webkit-scrollbar-thumb {
+  /* background: var(--primary-color); */
+  border-radius: 5px;
+}
+
+@media print {
+  .wrapper::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+  }
+}
+
+.main {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+a.active{
+  background-color: #e2ad0e;
+}

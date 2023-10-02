@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@200;300;400;700;900&family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap");
+
+:root {
+  --primary-color: #e2ad0e;
+  /* --primary-color: #FFBE00; */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5px;
+}
+
+@media print {
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+  }
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Source Sans Pro", "Lato", "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  font-size: 14px !important;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+nav {
+  z-index: 100;
+  width: 100%;
+  height: 66px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+}
+nav .menu-container {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.avatar-container {
+  display: flex;
+  gap: 20px;
+}
+nav .nav-dropdown {
+  outline: #fff !important;
+  border-width: none !important;
+  outline-width: 0 !important;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 60px;
+}
+.sidebar-header h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-nav li a {
+  text-decoration: none;
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  color: #333;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.sidebar-nav li a:hover {
+  background-color: #e2ad0e !important;
+  color: #fff !important;
+}
+
+.sidebar-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidebar-footer-figure {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-footer-figure span:first-of-type {
+  font-weight: bold;
+}
+.sidebar-footer-figure span:last-of-type {
+  font-size: 10px;
+  white-space: nowrap;
+  color: var(--primary-color);
+}
+.sidebar-icon {
+  transition: all 150ms ease-in-out;
+}
+.sidebar-icon:hover {
+  color: #e2ad0e !important;
+  transform: scale(1.4);
+}
+
+.content{
+  margin-left: 500px;
+}
+
+/*Delete button style*/
+.delete-btn {
+  content: url("assets/images/delete.png");
+  width: 30px;
+  cursor: pointer;
+  background: #333;
+  padding: 5px 7px;
+  font-size: smaller;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 2px;
+  transition: all 200ms ease-in-out;
+}
+.delete-btn:hover {
+  color: #fff;
+  background-color: #e2ad0e;
+  /* border: #bd910d 2px solid; */
+  outline: #f2c43c 2px solid;
+}
+
+.print-container {
+  display: block;
+  flex-direction: column;
+}
+/* .print-table-container{
+  flex-grow: 1;
+flex: 1;
+} */
+/* .print-header {
+}
+.print-logo-container {
+ 
+} */
+@media (max-width: 480px) {
+  .print-header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .print-logo-container {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+}
+
+@media print {
+.container{
+    margin: 0;
+    padding: 0;
+  }
+  nav,
+  footer,
+  .offSidebar {
+    width: 0;
+    display: none;
+    visibility: hidden;
+  }
+  .print-summary {
+    width: 20%;
+  }
+
+  .print-container{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@page{
+  margin: 1;
+}

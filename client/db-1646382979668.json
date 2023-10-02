@@ -1,0 +1,183 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sandwich",
+      "price": "10",
+      "quantity": "50",
+      "supplier": "3"
+    },
+    {
+      "id": 2,
+      "name": "Hisense",
+      "price": "120",
+      "quantity": 13,
+      "supplier": "2"
+    },
+    {
+      "id": 7,
+      "name": "Classic Brush",
+      "price": "1",
+      "quantity": "0",
+      "supplier": "1"
+    },
+    {
+      "id": 10,
+      "name": "Onion",
+      "price": "1",
+      "quantity": "0",
+      "supplier": "1"
+    },
+    {
+      "name": "Bernice",
+      "price": "1",
+      "quantity": "1",
+      "supplier": "3",
+      "id": 11
+    },
+    {
+      "name": "Kalyppo",
+      "price": "4",
+      "quantity": "67",
+      "supplier": "2",
+      "id": 12
+    },
+    {
+      "name": "Bernice",
+      "price": "8",
+      "quantity": "50",
+      "supplier": "1",
+      "id": 13
+    },
+    {
+      "id": 14,
+      "name": "Hisense",
+      "price": "7",
+      "quantity": "100",
+      "supplier": "2"
+    },
+    {
+      "name": "Nana Ama",
+      "price": "8",
+      "quantity": "67",
+      "supplier": "3",
+      "id": 15
+    },
+    {
+      "id": 17,
+      "name": "Anatella",
+      "price": "1",
+      "quantity": "2000",
+      "supplier": "2"
+    },
+    {
+      "name": "Kay",
+      "price": "8",
+      "quantity": "67",
+      "supplier": "1",
+      "id": 18
+    },
+    {
+      "name": "Nana Akwasi",
+      "price": "8",
+      "quantity": "67",
+      "supplier": "3",
+      "id": 19
+    },
+    {
+      "name": "Nana Ama",
+      "price": "10",
+      "quantity": "50",
+      "supplier": "1",
+      "id": 20
+    },
+    {
+      "name": "Bernice",
+      "price": "8",
+      "quantity": "7",
+      "supplier": "2",
+      "id": 21
+    },
+    {
+      "name": "Bernice",
+      "price": "1",
+      "quantity": "67",
+      "supplier": "1",
+      "id": 22
+    },
+    {
+      "name": "Nana Akwasi",
+      "price": "1",
+      "quantity": "50",
+      "supplier": "2",
+      "id": 23
+    },
+    {
+      "name": "Kay",
+      "price": "8",
+      "quantity": "67",
+      "supplier": "1",
+      "id": 24
+    },
+    {
+      "name": "yamen",
+      "price": "8",
+      "quantity": "50",
+      "supplier": "1",
+      "id": 26
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Bernice Osei Mensah",
+      "telephone": "0546296920",
+      "address": "Plot 15,Block D ,Kronum-Kwapra\nAK-459-6364"
+    },
+    {
+      "id": 2,
+      "name": "Kay",
+      "telephone": "0233111111",
+      "address": "22nd Avenue Street,Kronum Kwaprah"
+    },
+    {
+      "id": 3,
+      "name": "Anna",
+      "address": "22nd Avenue Street,Kronum Kwaprah",
+      "telephone": "0123485728"
+    },
+    {
+      "id": 4,
+      "name": "James",
+      "address": "22nd Avenue Street,Kronum Kwaprah",
+      "telephone": "0123485728"
+    },
+    {
+      "name": "Nana Akwasi",
+      "address": "Plot 15,Block D ,Kronum-Kwaprah\nAK-459-6364",
+      "telephone": "546296920",
+      "id": 5
+    },
+    {
+      "name": "Bernice",
+      "address": "Plot 15,Block D ,Kronum-Kwaprah\nAK-459-6364",
+      "telephone": "546296920",
+      "id": 6
+    },
+    {
+      "name": "Osofo",
+      "address": "Plot 15,Block D ,Kronum-Kwaprah\nAK-459-6364",
+      "telephone": "0546296920",
+      "id": 7
+    },
+    {
+      "name": "Nana Akwasi",
+      "address": "Plot 15,Block D ,Kronum-Kwaprah\nAK-459-6364",
+      "telephone": "546296920",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
